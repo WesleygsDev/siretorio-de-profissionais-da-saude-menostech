@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /diretorio/
+
+# Friendly profile URLs
+RewriteRule ^especialista/([^/]+)/([^/]+)/?$ perfil.php?especialidade=$1&slug=$2 [L,QSA]
+
+# Prevent direct access to .php if desired
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.php [L,QSA]
