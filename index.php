@@ -38,7 +38,7 @@ function slugify($text) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diretório de Certificados - MenoTech</title>
+    <title>Diretório de Certificados - Conectando profissionais da saúde com mulheres em peiodo de menopausa</title>
     <?php require_once __DIR__ . '/includes/brand-head.php'; ?>
 </head>
 <body>
